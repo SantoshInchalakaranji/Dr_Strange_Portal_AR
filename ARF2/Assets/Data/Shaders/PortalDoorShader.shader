@@ -5,6 +5,7 @@ Shader "Unlit/PortalDoorShader"
     {
         Zwrite off
         colorMask 0
+        cull off
 
        Stencil
        {
